@@ -1,0 +1,8 @@
+"0","#adding more dimensions increases the variability it captures. 
+cmdscale(hsere.bc, eig = TRUE, k = 3)$GOF
+"
+"1","[1]"
+"1"," 0.8589814"
+"1"," 0.8675741"
+"1","
+"

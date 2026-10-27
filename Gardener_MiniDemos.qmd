@@ -147,6 +147,9 @@ ggplot() +
 ### What about with one of our data sets?
 
 ```{r}
+
+load(file = "Quads_Reland.Rdata")
+
 Quads_Reland_temp <- Quads_Reland |> 
     filter(Date > mdy("01/01/2019")) |> 
   mutate(Index = paste(Date,Treatment,Quad,Block)) 
